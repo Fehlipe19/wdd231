@@ -1,4 +1,138 @@
+:root {
+  --dark-bg: #3f2314;
+  --light-color: #f69800;
+  --light-bg: #fefcad;
+}
+
 * {
   margin: 0;
   padding: 0;
+  color: var(--dark-bg);
+}
+
+.logo-banner {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: var(--light-color);
+}
+
+.logo-banner h1 {
+  color: var(--dark-bg);
+  font-size: 1.5rem;
+}
+
+nav {
+  background-color: var(--dark-bg);
+}
+
+ul {
+  padding: 4px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+
+li {
+  /* padding: 16px; */
+  width: 100%;
+}
+
+li a {
+  display: block;
+  padding: 16px;
+  color: var(--light-color);
+  text-decoration: none;
+  width: 100%;
+  text-align: center;
+}
+
+li a:hover {
+  background-color: var(--light-color);
+  color: var(--dark-bg);
+}
+
+#profile {
+  width: 6%;
+}
+
+main {
+  width: 90%;
+  margin: 16px auto;
+}
+
+section {
+  margin: 16px 0;
+  border: 2px solid var(--dark-bg);
+  border-radius: 8px;
+}
+
+h2 {
+  text-align: center;
+  background-color: var(--dark-bg);
+  color: var(--light-color);
+  border-radius: 8px;
+}
+
+section p,
+.card-body {
+  background-color: var(--light-bg);
+  border-radius: 8px;
+}
+
+#studentphoto {
+  max-width: 40%;
+}
+
+.student-img-container {
+  padding: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fefcad;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-list {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* gap: 16px; */
+  width: 100%;
+  padding: 16px;
+}
+
+button {
+  padding: 12px;
+  width: 30%;
+  font-size: 1.2rem;
+  background-color: var(--light-color);
+  color: var(--dark-bg);
+}
+
+button:hover {
+  /* background-color: var(--light-color); */
+  color: var(--light-bg);
+  border: 2px solid var(--light-bg);
+}
+
+footer {
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--dark-bg);
+}
+
+.footer-text p {
+  color: var(--light-color);
 }
