@@ -32,7 +32,6 @@ function createList(filteredCourses) {
     classCard.target = `_blank`;
 
     document.querySelector("#class-list").appendChild(classCard);
-    console.log(classCard);
   });
 }
 
@@ -42,7 +41,6 @@ const wddButton = document.querySelector("#wdd-classes");
 const container = document.querySelector("#class-list");
 
 allButton.addEventListener("click", () => {
-  console.log(courses);
   container.innerHTML = "";
   createList(courses);
 });
