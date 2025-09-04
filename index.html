@@ -15,10 +15,17 @@
     <header>
       <div class="logo-banner">
         <img id="profile" src="images/profile.png" alt="WDD 231 Logo" />
-        <h1>Web FrontEnd Development I</h1>
+        <h1 id="logo-title">Web FrontEnd Development I</h1>
+        <div class="mobile-header">
+          <div id="ham-menu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
       </div>
       <nav>
-        <ul>
+        <ul class="mobile-nav">
           <li><a href="#">Home</a></li>
           <li><a href="#">Chamber Project</a></li>
           <li><a href="#">Final Project</a></li>
@@ -51,9 +58,9 @@
         </div>
         <div class="card-body">
           <div class="button-list">
-            <button id="all-classes">All</button>
-            <button id="cse-classes">CSE</button>
-            <button id="wdd-classes">WDD</button>
+            <a href="#" id="all-classes">All</a>
+            <a href="#" id="cse-classes">CSE</a>
+            <a href="#" id="wdd-classes">WDD</a>
           </div>
           <!-- <ul>
               <li><a href="#">All</a></li>
@@ -69,9 +76,12 @@
         <!-- Icons 1-3 -->
       </div>
       <div class="footer-text">
-        <p>©<span id="currentyear"></span> | Felipe Menezes | Florida, USA.</p>
-        <p>Last Modification: <span id="lastupdated"></span></p>
+        <p>©<span id="currentYear"></span> | Felipe Menezes | Florida, USA.</p>
+        <p id="lastModified"></p>
       </div>
     </footer>
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/date.js" defer></script>
+    <script src="scripts/course.js" defer></script>
   </body>
 </html>

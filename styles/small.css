@@ -10,10 +10,77 @@
   color: var(--dark-bg);
 }
 
+nav {
+  border-top: 2px solid #f69800;
+}
+
+#logo-title {
+  display: none;
+}
+
+.mobile-header {
+  /* width: 100%; */
+  position: relative;
+  align-items: center;
+}
+
+.mobile-nav {
+  display: none;
+}
+
+#ham-menu {
+  height: 50px;
+  width: 50px;
+  cursor: pointer;
+  position: relative;
+  margin-right: 32px;
+}
+
+#ham-menu span {
+  position: absolute;
+  height: 5px;
+  width: 100%;
+  background-color: var(--dark-bg);
+  border-radius: 16px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: all 0.3s ease;
+}
+
+#ham-menu span:nth-child(1) {
+  top: 15%;
+}
+
+#ham-menu span:nth-child(3) {
+  top: 85%;
+}
+
+#ham-menu.active span:nth-child(1) {
+  top: 55%;
+  transform: translate(-50%, -50%) rotate(45deg);
+}
+
+#ham-menu.active span:nth-child(2) {
+  opacity: 0;
+}
+
+#ham-menu.active span:nth-child(3) {
+  top: 45%;
+  transform: translate(-50%, 50%) rotate(-45deg);
+}
+
+.open {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 16px;
+}
+
 .logo-banner {
   display: flex;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: space-between;
   background-color: var(--light-color);
 }
 
@@ -56,6 +123,11 @@ li a:hover {
 
 #profile {
   width: 6%;
+  min-width: 50px;
+}
+
+body {
+  background-color: bisque;
 }
 
 main {
@@ -110,15 +182,23 @@ section p,
   padding: 16px;
 }
 
-button {
+#all-classes,
+#cse-classes,
+#wdd-classes {
   padding: 12px;
   width: 30%;
   font-size: 1.2rem;
   background-color: var(--light-color);
   color: var(--dark-bg);
+  text-align: center;
+  text-decoration: none;
+  border: 2px solid var(--dark-bg);
+  border-radius: 8px;
 }
 
-button:hover {
+#all-classes:hover,
+#cse-classes:hover,
+#wdd-classes:hover {
   /* background-color: var(--light-color); */
   color: var(--light-bg);
   border: 2px solid var(--light-bg);
@@ -134,5 +214,9 @@ footer {
 }
 
 .footer-text p {
+  color: var(--light-color);
+}
+
+#currentYear {
   color: var(--light-color);
 }
