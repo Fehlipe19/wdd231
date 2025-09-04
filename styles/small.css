@@ -139,6 +139,7 @@ section {
   margin: 16px 0;
   border: 2px solid var(--dark-bg);
   border-radius: 8px;
+  background-color: var(--light-bg);
 }
 
 h2 {
@@ -155,6 +156,10 @@ section p,
 }
 .card-body {
   padding: 16px;
+}
+
+p {
+  height: 100%;
 }
 
 #studentphoto {
@@ -183,6 +188,7 @@ section p,
   /* gap: 16px; */
   width: 100%;
   padding: 16px;
+  border-bottom: 2px solid var(--dark-bg);
 }
 
 #all-classes,
