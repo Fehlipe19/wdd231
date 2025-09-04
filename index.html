@@ -10,6 +10,9 @@
     <meta name="author" content="Felipe Menezes" />
     <link rel="stylesheet" href="styles/small.css" />
     <link rel="stylesheet" href="styles/large.css" />
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/date.js" defer></script>
+    <script src="scripts/course.js" defer></script>
   </head>
   <body>
     <header>
@@ -37,10 +40,12 @@
       <section class="info-card">
         <div class="card-title">
           <h2>About Me</h2>
+        </div>
+        <div class="card-body">
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio voluptatibus temporibus magni. Provident
-            veniam est vel ea, modi quasi distinctio magnam nostrum facere voluptates impedit eaque consequuntur fugit
-            commodi labore.
+            My name is Felipe Menezes. I was born in Brazil and I have been living in Florida for about 8 years now. I
+            am currently working at my local UPS Store to help pay for my education. I love playing all kinds of sports
+            and music, and I am looking forward to learning about web development this term.
           </p>
         </div>
       </section>
@@ -58,15 +63,10 @@
         </div>
         <div class="card-body">
           <div class="button-list">
-            <a href="#" id="all-classes">All</a>
-            <a href="#" id="cse-classes">CSE</a>
-            <a href="#" id="wdd-classes">WDD</a>
+            <button id="all-classes">All</button>
+            <button id="cse-classes">CSE</button>
+            <button id="wdd-classes">WDD</button>
           </div>
-          <!-- <ul>
-              <li><a href="#">All</a></li>
-              <li><a href="#">CSE</a></li>
-              <li><a href="#">WDD</a></li>
-            </ul> -->
           <div id="class-list"></div>
         </div>
       </section>
@@ -80,8 +80,5 @@
         <p id="lastModified"></p>
       </div>
     </footer>
-    <script src="scripts/navigation.js" defer></script>
-    <script src="scripts/date.js" defer></script>
-    <script src="scripts/course.js" defer></script>
   </body>
 </html>

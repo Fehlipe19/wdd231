@@ -153,6 +153,9 @@ section p,
   background-color: var(--light-bg);
   border-radius: 8px;
 }
+.card-body {
+  padding: 16px;
+}
 
 #studentphoto {
   max-width: 40%;
@@ -199,7 +202,31 @@ section p,
 #all-classes:hover,
 #cse-classes:hover,
 #wdd-classes:hover {
-  /* background-color: var(--light-color); */
+  color: var(--light-bg);
+  border: 2px solid var(--light-bg);
+}
+
+#class-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.class-link {
+  width: 95%;
+  padding: 16px;
+  margin: 8px 0;
+  background-color: var(--light-color);
+  color: var(--dark-bg);
+  text-align: center;
+  text-decoration: none;
+  border: 2px solid var(--dark-bg);
+  border-radius: 8px;
+}
+
+.class-link:hover {
   color: var(--light-bg);
   border: 2px solid var(--light-bg);
 }
