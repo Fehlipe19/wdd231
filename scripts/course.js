@@ -4,29 +4,35 @@ const courses = [
     name: "WDD130",
     url: "https://fehlipe19.github.io/wdd130/",
     credits: 2,
+    completed: true,
   },
   {
     category: "wdd",
     name: "WDD131",
     url: "https://fehlipe19.github.io/wdd131/",
     credits: 2,
+    completed: true,
   },
   {
     category: "wdd",
     name: "WDD231",
     url: "https://fehlipe19.github.io/wdd231/",
     credits: 2,
+    completed: false,
   },
-  // {
-  //   category: "wdd",
-  //   name: "WDD330",
-  //   url: ""
-  // }
+  {
+    category: "wdd",
+    name: "WDD330",
+    url: "#",
+    credits: 3,
+    completed: false,
+  },
   {
     category: "cse",
     name: "CSE111",
     url: "https://github.com/Fehlipe19/cse111",
     credits: 2,
+    completed: true,
   },
 ];
 createList(courses);
@@ -35,6 +41,9 @@ function createList(filteredCourses) {
   filteredCourses.forEach((course) => {
     const classCard = document.createElement("a");
     classCard.classList.add("class-link");
+    if (course.completed) {
+      classCard.classList.add("completed");
+    }
 
     classCard.textContent = `${course.name}`;
     classCard.href = `${course.url}`;

@@ -2,6 +2,7 @@
   --dark-bg: #3f2314;
   --light-color: #f69800;
   --light-bg: #fefcad;
+  font-family: "sarala", sans-serif;
 }
 
 * {
@@ -236,6 +237,12 @@ p {
 .class-link:hover {
   color: var(--light-bg);
   border: 2px solid var(--light-bg);
+}
+
+.completed::after {
+  color: green;
+  content: " completed";
+  font-weight: bold;
 }
 
 footer {
