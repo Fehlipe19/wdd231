@@ -1,8 +1,8 @@
 :root {
+  font-family: "sarala", sans-serif;
   --dark-bg: #3f2314;
   --light-color: #f69800;
   --light-bg: #fefcad;
-  font-family: "sarala", sans-serif;
 }
 
 * {
