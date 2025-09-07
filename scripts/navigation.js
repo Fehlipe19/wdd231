@@ -7,13 +7,6 @@ menuButton.addEventListener("click", () => {
 });
 
 const tabs = document.querySelectorAll(".mobile-nav > li > a");
-// console.log(tabs);
-
-// function currentTab (tab) => {
-//   tab.addEventListener("click", () => {
-
-//   });
-// }
 
 function toggleCurrent(tabs) {
   tabs.forEach((tab) => {
