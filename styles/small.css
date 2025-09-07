@@ -116,7 +116,8 @@ li a {
   text-align: center;
 }
 
-li a:hover {
+li a:hover,
+.current-tab {
   background-color: var(--light-color);
   color: var(--dark-bg);
 }
