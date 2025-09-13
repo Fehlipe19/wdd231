@@ -1,0 +1,40 @@
+@media screen and (min-width: 712px) {
+  #ham-menu {
+    display: none;
+  }
+
+  #logo-title {
+    display: block;
+  }
+
+  .logo-banner {
+    width: 50%;
+  }
+
+  header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: var(--light-color);
+  }
+
+  .mobile-nav {
+    padding: 4px 16px 0 16px;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .personal-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 16px;
+  }
+
+  #info-text {
+    grid-column: 1/3;
+  }
+
+  #info-photo {
+    grid-column: 3/4;
+  }
+}
