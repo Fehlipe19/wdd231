@@ -1,0 +1,67 @@
+{
+  "companies": [
+    {
+      "name": "Build-a-Bear",
+      "address": "8888 SW 136th St #180, Miami, FL 33176",
+      "phone": "(305) 012-3456",
+      "url": "https://www.buildabear.com/",
+      "image": "https://www.buildabear.com/on/demandware.static/-/Library-Sites-buildabear-shared-library/default/dw8f3e1c9f/images/logo.png",
+      "membership": "Gold",
+      "tagline": "Create a bear that cares."
+    },
+    {
+      "name": "Toys R Us",
+      "address": "1125 NW 159th Dr, Miami, FL 33169",
+      "phone": "(305) 987-6543",
+      "url": "https://www.toysrus.com/",
+      "image": "https://commons.wikimedia.org/wiki/File:ToysRUsMontgomery_2.jpg#/media/File:ToysRUsMontgomery_2.jpg",
+      "membership": "Silver",
+      "tagline": "Bringing joy to kids of all ages."
+    },
+    {
+      "name": "Lego Store",
+      "address": "5300 NW 163rd St, Miami, FL 33014",
+      "phone": "(305) 555-1234",
+      "url": "https://www.lego.com/",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/LEGO_logo.svg/2560px-LEGO_logo.svg.png",
+      "membership": "Bronze",
+      "tagline": "Inspire and develop the builders of tomorrow."
+    },
+    {
+      "name": "Disney Store",
+      "address": "9700 NW 12th St, Miami, FL 33172",
+      "phone": "(305) 555-5678",
+      "url": "https://www.shopdisney.com/",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Disney_wordmark.svg/2560px-Disney_wordmark.svg.png",
+      "membership": "Gold",
+      "tagline": "The magic of Disney in every toy."
+    },
+    {
+      "name": "Hasbro Toy Shop",
+      "address": "1234 NW 150th St, Miami, FL 33169",
+      "phone": "(305) 555-8765",
+      "url": "https://shop.hasbro.com/",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Hasbro_Logo.svg/2560px-Hasbro_Logo.svg.png",
+      "membership": "Silver",
+      "tagline": "Creating the world's best play experiences."
+    },
+    {
+      "name": "Mattel Playroom",
+      "address": "5678 NW 158th St, Miami, FL 33169",
+      "phone": "(305) 555-4321",
+      "url": "https://www.mattel.com/",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Mattel_logo.svg/2560px-Mattel_logo.svg.png",
+      "membership": "Bronze",
+      "tagline": "Bringing imagination to life."
+    },
+    {
+      "name": "Fisher-Price Fun Center",
+      "address": "9101 NW 14th St, Miami, FL 33172",
+      "phone": "(305) 555-6789",
+      "url": "https://www.fisher-price.com/",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Fisher-Price_logo.svg/2560px-Fisher-Price_logo.svg.png",
+      "membership": "Gold",
+      "tagline": "Smart play for smart kids."
+    }
+  ]
+}
