@@ -37,4 +37,9 @@
   #info-photo {
     grid-column: 3/4;
   }
+
+  footer {
+    flex-direction: row;
+    justify-content: space-between;
+  }
 }
