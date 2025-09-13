@@ -1,0 +1,30 @@
+* {
+  background-color: #03045e;
+  margin: 0;
+  padding: 0;
+  color: #caf0f8;
+}
+
+div {
+  display: grid;
+  grid-gap: 1.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+}
+
+header {
+  text-align: center;
+  margin: 12px 0;
+  padding: 8px;
+}
+
+section {
+  border: 3px solid #00b4d8;
+  border-radius: 8px;
+  margin: 0 12px;
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 12px 2px #90e0ef;
+}
