@@ -140,13 +140,15 @@ li a:hover,
 
 .grid-view {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 16px;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 4px;
 }
 
-.table-view {
+.list-view {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
   margin: 16px;
 }
 
@@ -155,20 +157,13 @@ img {
   width: 100px;
 }
 
-#directory {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
 .company-card {
   border: 2px solid var(--dark-background);
   background-color: var(--light-color);
   border-radius: 8px;
   padding: 16px;
   margin: 16px;
-  width: 300px;
+  width: auto;
 }
 
 .card-title {
@@ -185,8 +180,12 @@ img {
   display: flex;
   flex-direction: row;
   align-items: center;
-  /* justify-content: center; */
-  /* margin-top: 8px; */
+}
+
+.column-display {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .card-side-text {
