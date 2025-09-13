@@ -3,6 +3,7 @@
     {
       "name": "Build-a-Bear",
       "address": "8888 SW 136th St #180, Miami, FL 33176",
+      "email": "info@buildabear.com",
       "phone": "(305) 012-3456",
       "url": "https://www.buildabear.com/",
       "image": "images/companyLogos/buildabear.jpg",
@@ -12,6 +13,7 @@
     {
       "name": "Toys R Us",
       "address": "1125 NW 159th Dr, Miami, FL 33169",
+      "email": "info@toysrus.com",
       "phone": "(305) 987-6543",
       "url": "https://www.toysrus.com/",
       "image": "images/companyLogos/toysrus.jpg",
@@ -21,6 +23,7 @@
     {
       "name": "Lego Store",
       "address": "5300 NW 163rd St, Miami, FL 33014",
+      "email": "info@lego.com",
       "phone": "(305) 555-1234",
       "url": "https://www.lego.com/",
       "image": "images/companyLogos/lego.jpg",
@@ -30,6 +33,7 @@
     {
       "name": "Disney Store",
       "address": "9700 NW 12th St, Miami, FL 33172",
+      "email": "info@disney.com",
       "phone": "(305) 555-5678",
       "url": "https://www.shopdisney.com/",
       "image": "images/companyLogos/disney.jpeg",
@@ -39,6 +43,7 @@
     {
       "name": "Hasbro Toy Shop",
       "address": "1234 NW 150th St, Miami, FL 33169",
+      "email": "info@hasbro.com",
       "phone": "(305) 555-8765",
       "url": "https://shop.hasbro.com/",
       "image": "images/companyLogos/hasbro.jpg",
@@ -48,6 +53,7 @@
     {
       "name": "Mattel Playroom",
       "address": "5678 NW 158th St, Miami, FL 33169",
+      "email": "info@mattel.com",
       "phone": "(305) 555-4321",
       "url": "https://www.mattel.com/",
       "image": "images/companyLogos/mattel.png",
@@ -57,6 +63,7 @@
     {
       "name": "Fisher-Price Fun Center",
       "address": "9101 NW 14th St, Miami, FL 33172",
+      "email": "info@fisherprice.com",
       "phone": "(305) 555-6789",
       "url": "https://www.fisher-price.com/",
       "image": "images/companyLogos/fisherprice.png",
