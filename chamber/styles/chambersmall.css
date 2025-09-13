@@ -140,6 +140,16 @@ li a:hover,
   margin: 16px;
 }
 
+img {
+  object-fit: contain;
+}
+
+.card-side-text {
+  display: flex;
+  flex-direction: row;
+  margin-top: 8px;
+}
+
 footer {
   background-color: var(--light-color);
   display: flex;

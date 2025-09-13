@@ -14,12 +14,15 @@ const displayDirectory = (companies) => {
   companies.forEach((company) => {
     const companyCard = document.createElement("section");
     const cardTitle = document.createElement("div");
+    const cardSideText = document.createElement("div");
     const name = document.createElement("h2");
     const tagline = document.createElement("p");
     const email = document.createElement("a");
     const phone = document.createElement("a");
     const url = document.createElement("a");
     const logo = document.createElement("img");
+
+    cardSideText.classList.add("card-side-text");
 
     name.textContent = company.name;
     tagline.textContent = company.tagline;
@@ -41,10 +44,11 @@ const displayDirectory = (companies) => {
     cardTitle.appendChild(name);
     cardTitle.appendChild(tagline);
     companyCard.appendChild(cardTitle);
-    companyCard.appendChild(logo);
-    companyCard.appendChild(email);
-    companyCard.appendChild(phone);
-    companyCard.appendChild(url);
+    cardSideText.appendChild(logo);
+    cardSideText.appendChild(email);
+    cardSideText.appendChild(phone);
+    cardSideText.appendChild(url);
+    companyCard.appendChild(cardSideText);
 
     cards.appendChild(companyCard);
   });
