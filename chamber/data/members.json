@@ -5,7 +5,7 @@
       "address": "8888 SW 136th St #180, Miami, FL 33176",
       "phone": "(305) 012-3456",
       "url": "https://www.buildabear.com/",
-      "image": "https://www.buildabear.com/on/demandware.static/-/Library-Sites-buildabear-shared-library/default/dw8f3e1c9f/images/logo.png",
+      "image": "images/companyLogos/buildabear.jpg",
       "membership": "Gold",
       "tagline": "Create a bear that cares."
     },
@@ -14,7 +14,7 @@
       "address": "1125 NW 159th Dr, Miami, FL 33169",
       "phone": "(305) 987-6543",
       "url": "https://www.toysrus.com/",
-      "image": "https://commons.wikimedia.org/wiki/File:ToysRUsMontgomery_2.jpg#/media/File:ToysRUsMontgomery_2.jpg",
+      "image": "images/companyLogos/toysrus.jpg",
       "membership": "Silver",
       "tagline": "Bringing joy to kids of all ages."
     },
@@ -24,7 +24,7 @@
       "phone": "(305) 555-1234",
       "url": "https://www.lego.com/",
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/LEGO_logo.svg/2560px-LEGO_logo.svg.png",
-      "membership": "Bronze",
+      "membership": "Member",
       "tagline": "Inspire and develop the builders of tomorrow."
     },
     {
@@ -51,7 +51,7 @@
       "phone": "(305) 555-4321",
       "url": "https://www.mattel.com/",
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Mattel_logo.svg/2560px-Mattel_logo.svg.png",
-      "membership": "Bronze",
+      "membership": "Member",
       "tagline": "Bringing imagination to life."
     },
     {
