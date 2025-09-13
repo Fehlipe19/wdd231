@@ -129,3 +129,7 @@ li a:hover,
   width: 6%;
   min-width: 50px;
 }
+
+footer {
+  background-color: var(--light-color);
+}
