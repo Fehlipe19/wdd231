@@ -1,7 +1,8 @@
 :root {
   --primary-color: #a7c957;
   --secondary-color: #005700;
-  --font-color: #f2e8cf;
+  --light-color: #f2e8cf;
+  --dark-color: #005700;
   --light-background: #a7c957;
   --dark-background: #005700;
 }
@@ -9,4 +10,122 @@
 * {
   margin: 0;
   padding: 0;
+  color: var(--dark-color);
+}
+
+nav {
+  border-top: 2px solid var(--dark-background);
+}
+
+/* #logo-title {
+  display: none;
+} */
+
+.mobile-header {
+  /* width: 100%; */
+  position: relative;
+  align-items: center;
+}
+
+.mobile-nav {
+  display: none;
+}
+
+#ham-menu {
+  height: 50px;
+  width: 50px;
+  cursor: pointer;
+  position: relative;
+  margin-right: 32px;
+}
+
+#ham-menu span {
+  position: absolute;
+  height: 5px;
+  width: 100%;
+  background-color: var(--dark-background);
+  border-radius: 16px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: all 0.3s ease;
+}
+
+#ham-menu span:nth-child(1) {
+  top: 15%;
+}
+
+#ham-menu span:nth-child(3) {
+  top: 85%;
+}
+
+#ham-menu.active span:nth-child(1) {
+  top: 55%;
+  transform: translate(-50%, -50%) rotate(45deg);
+}
+
+#ham-menu.active span:nth-child(2) {
+  opacity: 0;
+}
+
+#ham-menu.active span:nth-child(3) {
+  top: 45%;
+  transform: translate(-50%, 50%) rotate(-45deg);
+}
+
+.open {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 16px;
+}
+
+.logo-banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--light-color);
+}
+
+.logo-banner h1 {
+  color: var(--dark-background);
+  font-size: 1.5rem;
+}
+
+nav {
+  background-color: var(--dark-background);
+}
+
+ul {
+  padding: 4px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+
+li {
+  /* padding: 16px; */
+  width: 100%;
+}
+
+li a {
+  display: block;
+  padding: 16px;
+  color: var(--light-color);
+  text-decoration: none;
+  width: 100%;
+  text-align: center;
+}
+
+li a:hover,
+.current-tab {
+  background-color: var(--light-color);
+  color: var(--dark-background);
+}
+
+#profile {
+  width: 6%;
+  min-width: 50px;
 }
