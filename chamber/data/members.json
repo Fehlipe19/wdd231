@@ -23,7 +23,7 @@
       "address": "5300 NW 163rd St, Miami, FL 33014",
       "phone": "(305) 555-1234",
       "url": "https://www.lego.com/",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/LEGO_logo.svg/2560px-LEGO_logo.svg.png",
+      "image": "images/companyLogos/lego.jpg",
       "membership": "Member",
       "tagline": "Inspire and develop the builders of tomorrow."
     },
@@ -32,7 +32,7 @@
       "address": "9700 NW 12th St, Miami, FL 33172",
       "phone": "(305) 555-5678",
       "url": "https://www.shopdisney.com/",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Disney_wordmark.svg/2560px-Disney_wordmark.svg.png",
+      "image": "images/companyLogos/disney.jpeg",
       "membership": "Gold",
       "tagline": "The magic of Disney in every toy."
     },
@@ -41,7 +41,7 @@
       "address": "1234 NW 150th St, Miami, FL 33169",
       "phone": "(305) 555-8765",
       "url": "https://shop.hasbro.com/",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Hasbro_Logo.svg/2560px-Hasbro_Logo.svg.png",
+      "image": "images/companyLogos/hasbro.jpg",
       "membership": "Silver",
       "tagline": "Creating the world's best play experiences."
     },
@@ -50,7 +50,7 @@
       "address": "5678 NW 158th St, Miami, FL 33169",
       "phone": "(305) 555-4321",
       "url": "https://www.mattel.com/",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Mattel_logo.svg/2560px-Mattel_logo.svg.png",
+      "image": "images/companyLogos/mattel.png",
       "membership": "Member",
       "tagline": "Bringing imagination to life."
     },
@@ -59,7 +59,7 @@
       "address": "9101 NW 14th St, Miami, FL 33172",
       "phone": "(305) 555-6789",
       "url": "https://www.fisher-price.com/",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Fisher-Price_logo.svg/2560px-Fisher-Price_logo.svg.png",
+      "image": "images/companyLogos/fisherprice.jpg",
       "membership": "Gold",
       "tagline": "Smart play for smart kids."
     }
