@@ -132,6 +132,11 @@ li a:hover,
   min-width: 50px;
 }
 
+h1 {
+  text-align: center;
+  color: var(--light-color);
+}
+
 .active-view {
   background-color: var(--dark-background);
   color: var(--light-color);
