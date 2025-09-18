@@ -269,8 +269,6 @@ button:hover {
   display: flex;
   align-items: center;
   background-color: var(--light-background);
-  /* gap: 16px; */
-  /* margin-top: 8px; */
   border-bottom-left-radius: 8px;
 }
 
@@ -279,6 +277,14 @@ button:hover {
   padding: 8px;
   width: 100%;
   border-bottom-right-radius: 8px;
+}
+
+.forecast-info {
+  padding: 8px;
+}
+
+.forecast-info p {
+  margin: 4px 0;
 }
 
 footer {
