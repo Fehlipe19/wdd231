@@ -3,10 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Directory | Neverland - Chamber of Commerce</title>
+    <title>Home | Neverland - Chamber of Commerce</title>
     <meta
       name="description"
-      content="Directory page of Chamber of Commerce page for WDD 231 - Web FrontEnd Development I. This page is the final project for the class." />
+      content="Home page of Chamber of Commerce page for WDD 231 - Web FrontEnd Development I. This page is the final project for the class." />
     <meta name="author" content="Felipe Menezes" />
     <meta property="og:title" content="Neverland - Chamber of Commerce" />
     <meta
@@ -40,20 +40,49 @@
       </div>
       <nav>
         <ul class="mobile-nav">
-          <li><a href="https://fehlipe19.github.io/wdd231/chamber/index.html">Home</a></li>
-          <li><a href="https://fehlipe19.github.io/wdd231/chamber/directory.html" class="current-tab">Directory</a></li>
+          <li><a href="https://fehlipe19.github.io/wdd231/chamber/index.html" class="current-tab">Home</a></li>
+          <li><a href="https://fehlipe19.github.io/wdd231/chamber/directory.html">Directory</a></li>
           <li><a href="#">Join</a></li>
           <li><a href="#">Discover</a></li>
         </ul>
       </nav>
     </header>
     <main>
-      <h1>Directory | Neverland - Chamber of Commerce</h1>
-      <div class="view-toggle">
-        <button id="grid-view">Grid View</button>
-        <button id="list-view" class="active-view">List View</button>
+      <div class="hero">
+        <div class="hero-text">
+          <h1>Welcome to Neverland Chamber of Commerce</h1>
+          <p>Your gateway to business excellence and community growth in Neverland.</p>
+        </div>
+        <a href="#" class="hero-button">Join Us Today</a>
       </div>
-      <div id="directory" class="list-view"></div>
+      <section class="current-info">
+        <div class="events-section">
+          <div class="events summary">
+            <h2>Upcoming Events</h2>
+            <ul>
+              <li>Networking Breakfast - July 15, 2024</li>
+              <li>Business Expo - August 10, 2024</li>
+              <li>Annual Gala - September 20, 2024</li>
+            </ul>
+          </div>
+          <div class="weather">
+            <div class="current-weather summary">
+              <h2>Current Weather</h2>
+              <p id="weather-description">Loading...</p>
+              <p id="temperature"></p>
+              <p id="humidity"></p>
+              <p id="wind-speed"></p>
+            </div>
+            <div class="forecast summary">
+              <h2>3-Day Forecast</h2>
+              <div id="forecast-cards" class="forecast-cards">
+                <!-- Forecast cards will be inserted here -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="company-spotlights"></section>
     </main>
     <footer>
       <div class="contact-info">
