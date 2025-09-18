@@ -30,6 +30,16 @@
     gap: 16px;
   }
 
+  .current-info {
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: space-between;
+  }
+
+  .summary {
+    width: 30%;
+  }
+
   #info-text {
     grid-column: 1/3;
   }
