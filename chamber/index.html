@@ -24,6 +24,7 @@
     <script src="scripts/date.js" defer></script>
     <script src="scripts/directory.js" defer></script>
     <script src="scripts/view-toggle.js" defer></script>
+    <script src="scripts/weather.js" defer></script>
   </head>
   <body>
     <header>
@@ -68,18 +69,16 @@
           <div class="weather">
             <div class="current-weather summary">
               <h2>Current Weather</h2>
-              <p id="weather-description">Loading...</p>
-              <p id="temperature"></p>
-              <p id="humidity"></p>
-              <p id="wind-speed"></p>
+              <div id="weather-info">
+                <!-- Weather information will be inserted here -->
             </div>
+        </div>
             <div class="forecast summary">
               <h2>3-Day Forecast</h2>
-              <div id="forecast-cards" class="forecast-cards">
+              <div id="forecast-info" class="forecast-cards">
                 <!-- Forecast cards will be inserted here -->
               </div>
             </div>
-          </div>
         </div>
       </section>
       <section id="company-spotlights"></section>

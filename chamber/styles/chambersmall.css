@@ -265,6 +265,22 @@ button:hover {
   margin-left: 16px;
 }
 
+#weather-info {
+  display: flex;
+  align-items: center;
+  background-color: var(--light-background);
+  /* gap: 16px; */
+  /* margin-top: 8px; */
+  border-bottom-left-radius: 8px;
+}
+
+.weather-text {
+  background-color: var(--light-color);
+  padding: 8px;
+  width: 100%;
+  border-bottom-right-radius: 8px;
+}
+
 footer {
   background-color: var(--light-color);
   display: flex;
