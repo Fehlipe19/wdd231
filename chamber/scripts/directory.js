@@ -1,3 +1,4 @@
+// export { url };
 const url = "https://fehlipe19.github.io/wdd231/chamber/data/members.json";
 
 // console.log(members);

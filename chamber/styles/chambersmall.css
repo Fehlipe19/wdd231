@@ -221,6 +221,7 @@ button:hover {
 .summary h2 {
   background-color: var(--dark-background);
   color: var(--light-color);
+  text-align: center;
 }
 
 .summary > p,
@@ -285,6 +286,24 @@ button:hover {
 
 .forecast-info p {
   margin: 4px 0;
+}
+
+.spotlight-card-title {
+  border-bottom: 2px solid var(--dark-background);
+  text-align: center;
+}
+
+.spotlight-card-title > h2 {
+  border-radius: 8px 8px 0 0;
+  background-color: var(--light-color);
+  color: var(--dark-color);
+}
+
+.spotlight-card-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 0 8px 0;
 }
 
 footer {
