@@ -60,6 +60,10 @@
     gap: 8px;
   }
 
+  h1 {
+    width: 53.4%;
+  }
+
   button {
     background-color: var(--primary-color);
     color: var(--dark-background);

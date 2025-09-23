@@ -132,6 +132,7 @@ h1 {
   color: var(--light-color);
   background-color: var(--dark-background);
   padding: 8px 0;
+  /* width: 100%; */
 }
 
 .view-toggle {
