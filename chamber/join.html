@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Join | Neverland - Chamber of Commerce</title>
+    <meta
+      name="description"
+      content="Join the Chamber of Commerce page for WDD 231 - Web FrontEnd Development I. This page is the final project for the class." />
+    <meta name="author" content="Felipe Menezes" />
+    <meta property="og:title" content="Neverland - Chamber of Commerce" />
+    <meta
+      property="og:description"
+      content="Chamber of Commerce page for WDD 231 - Web FrontEnd Development I. This page is the final project for the class." />
+    <meta property="og:image" content="images/neverland-logo.png" />
+    <meta property="og:url" content="https://fehlipe19.github.io/wdd231/chamber/directory.html" />
+    <link rel="icon" href="images/favicon.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Sarala:wght@400;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles/chambersmall.css" />
+    <link rel="stylesheet" href="styles/form.css" />
+    <link rel="stylesheet" href="styles/chamberlarge.css" />
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/date.js" defer></script>
+    <script src="scripts/view-toggle.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <div class="logo-banner">
+        <img id="profile" src="images/neverland-logo1.png" alt="WDD 231 Logo" />
+        <h2 id="logo-title">Neverland Chamber of Commerce</h2>
+        <div class="mobile-header">
+          <div id="ham-menu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+      </div>
+      <nav>
+        <ul class="mobile-nav">
+          <li><a href="https://fehlipe19.github.io/wdd231/chamber/index.html" class="current-tab">Home</a></li>
+          <li><a href="https://fehlipe19.github.io/wdd231/chamber/directory.html">Directory</a></li>
+          <li><a href="#">Join</a></li>
+          <li><a href="#">Discover</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <form action="/thankyou.html" method="GET">
+        <label for="firstName">
+          First Name:
+          <input
+            name="firstName"
+            id="firstName"
+            type="text"
+            autocomplete="given-name"
+            title="Enter your first name"
+            required />
+        </label>
+        <label for="lastName">
+          Last Name:
+          <input
+            name="lastName"
+            id="lastName"
+            type="text"
+            autocomplete="family-name"
+            title="Enter your last name"
+            required />
+        </label>
+        <label for="organizationTitle">
+          Title:
+          <input
+            name="organizationTitle"
+            id="organizationTitle"
+            type="text"
+            autocomplete="organization-title"
+            title="Enter your title in your organization"
+            pattern="^[a-zA-Z\-\s+].{6,}+$"
+            required />
+        </label>
+        <label for="email">
+          Email:
+          <input name="email" id="email" type="email" autocomplete="email" title="Enter your email" required />
+        </label>
+        <label for="telephone">
+          Phone number:
+          <input
+            name="telephone"
+            id="telephone"
+            type="tel"
+            autocomplete="ftel"
+            title="Enter your phone number"
+            required />
+        </label>
+        <label for="organization">
+          Business/Organization's name:
+          <input
+            name="organization"
+            id="organization"
+            type="text"
+            autocomplete="organization"
+            title="Enter your organization's name"
+            required />
+        </label>
+        <label for="membershipLevel">
+            Membership Level:
+          <select
+            name="membershipLevel" id="membershipLevel" title="Select your membership level" required />
+            <option value="NP">Non-Profit</option>
+            <option value="Bronze">Bronze</option>
+            <option value="Silver">Silver</option>
+            <option value="Gold">Gold</option>
+          </select>
+        </label>
+        <label for="description">
+            Description:
+          <textarea
+            name="description"
+            id="description"
+            title="Enter a description of your business"
+            rows="10"
+            cols="40"
+            required placeholder="Enter your organization's description"/></textarea>
+        </label>
+          <input
+            name="timestamp"
+            id="timestamp"
+            type="hidden"
+            required />
+        <label for="submit">
+          <input
+            name="submit"
+            id="submit"
+            value="Join"
+            type="submit"
+            title="Join chamber of commerce"
+            required />
+        </label>
+      </form>
+    </main>
+    <footer>
+      <div class="contact-info">
+        <p><span id="bold-text">Neverland Chamber of Commerce</span></p>
+        <address>
+          <p>123 N Wearea way</p>
+          <p>Neverland, Fantasy Land 54321</p>
+          <p>Email: <a href="mailto:info@neverlandcoc.org">info@neverland-chamberofcommerce.org</a></p>
+          <p>Phone: <a href="tel:+88001287654">+88 (001) 287-654</a></p>
+        </address>
+      </div>
+      <div class="social-media-links">
+        <a href="#">Youtube</a>
+        <a href="#">Twitter</a>
+        <a href="#">LinkedIn</a>
+      </div>
+      <div class="personal info">
+        <p><a href="https://fehlipe19.github.io/wdd231/">WDD 231</a> Class Project</p>
+        <p>Felipe Menezes</p>
+        <p>&copy;<span id="currentYear"></span> Neverland Chamber of Commerce</p>
+        <p id="lastModified"></p>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -76,6 +76,10 @@
     border: 2px solid var(--dark-background);
   }
 
+  form {
+    width: 50%;
+  }
+
   footer {
     flex-direction: row;
     justify-content: space-between;
