@@ -16,7 +16,16 @@ async function getMembershipLevelData() {
   const response = await fetch(membershipURL);
   const data = await response.json();
 
-  displayMembershipLevelDetails(data.levels);
+  let membershipList = document.querySelectorAll(".membership-card");
+  let infor = data.levels;
+
+  membershipList.forEach((item) => {
+    item.addEventListener("click", () => {
+      console.log(data.levels);
+      //Display individual level information
+      displayMembershipLevelDetails(infor);
+    });
+  });
 }
 
 const displayDirectory = (companies) => {
