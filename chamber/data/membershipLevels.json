@@ -1,0 +1,24 @@
+{
+  "levels": [
+    {
+      "title": "Non-Profit",
+      "cost": "Free",
+      "benefits": "Benefits include attendance at our monthly networking event, digital marketing training, and advertising for the first week on our front page."
+    },
+    {
+      "title": "Bronze",
+      "cost": "500",
+      "benefits": "Benefits include a 20% discount at every networking event, quarterly digital marketing training, and quarterly business administration training."
+    },
+    {
+      "title": "Silver",
+      "cost": "1000",
+      "benefits": "Benefits include a 35% discount at every networking event, digital marketing and business administration training every two months, and a 50% discount on advertising on our front page."
+    },
+    {
+      "title": "Gold",
+      "cost": "2000",
+      "benefits": "Benefits include a 50% discount at every networking event, monthly digital marketing and business administration training, free advertising on our front page, and 20% discount to our local CPAs."
+    }
+  ]
+}

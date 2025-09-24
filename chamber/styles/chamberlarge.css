@@ -60,9 +60,9 @@
     gap: 8px;
   }
 
-  h1 {
+  /* h1 {
     width: 53.4%;
-  }
+  } */
 
   button {
     background-color: var(--primary-color);
@@ -80,8 +80,25 @@
     border: 2px solid var(--dark-background);
   }
 
+  .form-main-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+  }
+
+  .form {
+    margin: 0 8px;
+    width: 40%;
+    padding: 16px;
+  }
+
   form {
-    width: 50%;
+    margin: 2% 0;
+  }
+
+  .membership-level-card-list {
+    width: 40%;
   }
 
   footer {

@@ -48,38 +48,41 @@
       </nav>
     </header>
     <main>
-      <h1>Join the Chamber!</h1>
-      <form action="/thankyou.html" method="GET">
-        <label for="firstName">
-          First Name:
-          <input
-            name="firstName"
-            id="firstName"
-            type="text"
-            autocomplete="given-name"
-            title="Enter your first name"
-            required />
-        </label>
-        <label for="lastName">
-          Last Name:
-          <input
-            name="lastName"
-            id="lastName"
-            type="text"
-            autocomplete="family-name"
-            title="Enter your last name"
-            required />
+      <div class="form-main-container">
+
+        <section class="form">
+          <h2>Join the Chamber!</h2>
+          <form action="/thankyou.html" method="GET">
+            <label for="firstName">
+              First Name:
+              <input
+              name="firstName"
+              id="firstName"
+              type="text"
+              autocomplete="given-name"
+              title="Enter your first name"
+              required />
+            </label>
+            <label for="lastName">
+              Last Name:
+              <input
+          name="lastName"
+          id="lastName"
+          type="text"
+          autocomplete="family-name"
+          title="Enter your last name"
+          required />
         </label>
         <label for="organizationTitle">
           Title:
           <input
-            name="organizationTitle"
-            id="organizationTitle"
-            type="text"
-            autocomplete="organization-title"
-            title="Enter your title in your organization"
-            pattern="^[a-zA-Z\-\s+].{6,}+$"
-            required />
+          name="organizationTitle"
+          id="organizationTitle"
+          type="text"
+          autocomplete="organization-title"
+          title="Enter your title in your organization"
+          pattern="^[a-zA-Z\-\s+].{6,}+$"
+          required />
         </label>
         <label for="email">
           Email:
@@ -88,58 +91,80 @@
         <label for="telephone">
           Phone number:
           <input
-            name="telephone"
-            id="telephone"
-            type="tel"
-            autocomplete="ftel"
-            title="Enter your phone number"
-            required />
+          name="telephone"
+          id="telephone"
+          type="tel"
+          autocomplete="ftel"
+          title="Enter your phone number"
+          required />
         </label>
         <label for="organization">
           Business/Organization's name:
           <input
-            name="organization"
-            id="organization"
-            type="text"
-            autocomplete="organization"
-            title="Enter your organization's name"
-            required />
+          name="organization"
+          id="organization"
+          type="text"
+          autocomplete="organization"
+          title="Enter your organization's name"
+          required />
         </label>
         <label for="membershipLevel">
-            Membership Level:
+          Membership Level:
           <select
-            name="membershipLevel" id="membershipLevel" title="Select your membership level" required />
-            <option value="NP">Non-Profit</option>
-            <option value="Bronze">Bronze</option>
-            <option value="Silver">Silver</option>
-            <option value="Gold">Gold</option>
-          </select>
+          name="membershipLevel" id="membershipLevel" title="Select your membership level" required />
+          <option value="NP">Non-Profit</option>
+          <option value="Bronze">Bronze</option>
+          <option value="Silver">Silver</option>
+          <option value="Gold">Gold</option>
+        </select>
+      </label>
+      <label for="description">
+        Description:
+        <textarea
+        name="description"
+        id="description"
+        title="Enter a description of your business"
+        rows="10"
+          cols="40"
+          required placeholder="Enter your organization's description"/></textarea>
         </label>
-        <label for="description">
-            Description:
-          <textarea
-            name="description"
-            id="description"
-            title="Enter a description of your business"
-            rows="10"
-            cols="40"
-            required placeholder="Enter your organization's description"/></textarea>
-        </label>
-          <input
-            name="timestamp"
-            id="timestamp"
-            type="hidden"
-            required />
+        <input
+        name="timestamp"
+        id="timestamp"
+        type="hidden"
+        required />
         <label for="submit">
           <input
-            name="submit"
-            id="submit"
-            value="Join"
-            type="submit"
-            title="Join chamber of commerce"
-            required />
+          name="submit"
+          id="submit"
+          value="Join"
+          type="submit"
+          title="Join chamber of commerce"
+          required />
         </label>
       </form>
+    </section>
+    <section class="membership-level-card-list">
+      <h2>Membership Levels</h2>
+      <div class="membership-card" id="np-card">
+        <h3>Non-Profit</h3>
+        <a>Learn More</a>
+      </div>
+      <div class="membership-card" id="bronze-card">
+        <h3>Bronze</h3>
+        <a>Learn More</a>
+      </div>
+      <div class="membership-card" id="silver-card">
+        <h3>Silver</h3>
+        <a>Learn More</a>
+      </div>
+      <div class="membership-card" id="gold-card">
+        <h3>Gold</h3>
+        <a>Learn More</a>
+      </div>
+    </section>
+  </div>
+    <dialog id="membership-details"></dialog>
     </main>
     <footer>
       <div class="contact-info">
@@ -164,4 +189,5 @@
       </div>
     </footer>
   </body>
-</html>
+  </html>
+  

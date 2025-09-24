@@ -1,5 +1,6 @@
 // export { url };
 const url = "https://fehlipe19.github.io/wdd231/chamber/data/members.json";
+const membershipURL = "https://fehlipe19.github.io/wdd231/chamber/data/membershipLevels.json";
 
 // console.log(members);
 const cards = document.querySelector("#directory");
@@ -9,6 +10,13 @@ async function getDirectoryData() {
   const data = await response.json();
   //   console.table(data);
   displayDirectory(data.companies);
+}
+
+async function getMembershipLevelData() {
+  const response = await fetch(membershipURL);
+  const data = await response.json();
+
+  displayMembershipLevelDetails(data.levels);
 }
 
 const displayDirectory = (companies) => {
@@ -60,4 +68,22 @@ const displayDirectory = (companies) => {
   });
 };
 
+function displayMembershipLevelDetails(membership) {
+  membershipDetails = document.querySelector("#membership-details");
+  membershipDetails.innerHTML = "";
+  membershipDetails.innerHTML = `
+    <button id="closeModal">❌</button>
+    <h2>${membership.title}</h2>
+    <p><strong>Price</strong>: ${membership.cost}</p>
+    <p><strong>Benefits</strong>: ${membership.benefits}</p>
+  `;
+
+  membershipDetails.showModal();
+
+  closeModal.addEventListener("click", () => {
+    membershipDetails.close();
+  });
+}
+
 getDirectoryData();
+getMembershipLevelData();
