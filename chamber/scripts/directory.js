@@ -21,9 +21,22 @@ async function getMembershipLevelData() {
 
   membershipList.forEach((item) => {
     item.addEventListener("click", () => {
-      console.log(data.levels);
       //Display individual level information
-      displayMembershipLevelDetails(infor);
+      switch (item.id) {
+        case "np-card":
+          displayMembershipLevelDetails(infor[0]);
+          break;
+        case "bronze-card":
+          displayMembershipLevelDetails(infor[1]);
+          break;
+        case "silver-card":
+          displayMembershipLevelDetails(infor[2]);
+          break;
+        case "gold-card":
+          displayMembershipLevelDetails(infor[3]);
+        default:
+          console.log("Error getting infor");
+      }
     });
   });
 }
@@ -81,14 +94,13 @@ function displayMembershipLevelDetails(membership) {
   membershipDetails = document.querySelector("#membership-details");
   membershipDetails.innerHTML = "";
   membershipDetails.innerHTML = `
-    <button id="closeModal">❌</button>
-    <h2>${membership.title}</h2>
-    <p><strong>Price</strong>: ${membership.cost}</p>
-    <p><strong>Benefits</strong>: ${membership.benefits}</p>
-  `;
+      <button id="closeModal">❌</button>
+      <h2>${membership.title}</h2>
+      <p><strong>Price</strong>: ${membership.cost}</p>
+      <p><strong>Benefits</strong>: ${membership.benefits}</p>
+    `;
 
   membershipDetails.showModal();
-
   closeModal.addEventListener("click", () => {
     membershipDetails.close();
   });
