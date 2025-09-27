@@ -374,7 +374,7 @@ button:hover {
     background-color: rgba(245, 228, 0, 0.5);
   }
   100% {
-    background-color: rgba(--light-color);
+    background-color: var(--light-color);
   }
 }
 
