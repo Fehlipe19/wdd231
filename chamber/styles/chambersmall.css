@@ -415,6 +415,36 @@ dialog::backdrop {
   background-color: rgba(0, 87, 0, 0.3);
 }
 
+#display-required-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+table {
+  font-size: 1.2rem;
+  border-collapse: collapse;
+  margin-top: 16px;
+  /* background-color: var(--light-color); */
+}
+
+th {
+  text-align: start;
+}
+
+td,
+th {
+  border: 2px solid var(--dark-background);
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: rgba(242, 232, 207, 0.6);
+}
+tr:nth-child(odd) {
+  background-color: var(--light-color);
+}
+
 footer {
   background-color: var(--light-color);
   display: flex;
