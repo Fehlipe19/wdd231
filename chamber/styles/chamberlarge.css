@@ -101,6 +101,10 @@
     width: 40%;
   }
 
+  #membership-details {
+    left: 40%;
+  }
+
   footer {
     flex-direction: row;
     justify-content: space-between;
