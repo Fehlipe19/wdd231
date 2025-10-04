@@ -22,3 +22,9 @@ tabs.forEach((tab) => {
     tab.classList.add("current-tab");
   });
 });
+
+let res;
+let result = null;
+
+console.log(res);
+console.log(result);
