@@ -12,10 +12,12 @@ async function getAttractionsData() {
 const displayAttractions = (attractions) => {
   attractions.forEach((attractionInfo) => {
     const attractionCard = document.createElement("div");
+    attractionCard.classList.add("attraction-card");
     const aTitle = document.createElement("h2");
-    const aAddress = document.createElement("p");
+    const aAddress = document.createElement("address");
     const aDescription = document.createElement("p");
     const aFigure = document.createElement("img");
+    const btn = document.createElement("button");
 
     aTitle.textContent = `${attractionInfo.title}`;
     aAddress.textContent = `Address: ${attractionInfo.address}`;
@@ -23,13 +25,15 @@ const displayAttractions = (attractions) => {
     aFigure.setAttribute("src", attractionInfo.figure);
     aFigure.setAttribute("alt", `Image of ${attractionInfo.title}`);
     aFigure.setAttribute("loading", "lazy");
-    aFigure.setAttribute("width", "300");
     aFigure.setAttribute("height", "200");
+    // aFigure.setAttribute("width", "300");
+    btn.textContent = "Learn More";
 
     attractionCard.appendChild(aTitle);
     attractionCard.appendChild(aAddress);
     attractionCard.appendChild(aDescription);
     attractionCard.appendChild(aFigure);
+    attractionCard.appendChild(btn);
 
     attraction.appendChild(attractionCard);
   });

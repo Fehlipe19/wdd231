@@ -1,0 +1,6 @@
+@media screen and (min-width: 1024px) {
+  #attractions {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}

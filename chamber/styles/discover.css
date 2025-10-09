@@ -1,0 +1,48 @@
+#attractions {
+  margin: 32px 12px;
+  display: grid;
+  /* grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); */
+  /* grid-template-columns: ; */
+  gap: 16px;
+}
+
+.attraction-card {
+  display: grid;
+  grid-template-areas:
+    "name"
+    "image"
+    "description"
+    "location"
+    "button";
+  border: 2px solid var(--dark-background);
+  background-color: var(--light-color);
+  border-radius: 8px;
+  padding: 8px;
+}
+
+.attraction-card > img {
+  object-fit: cover;
+  width: 100%;
+  border-radius: 8px;
+  grid-area: image;
+}
+
+.attraction-card > h2 {
+  grid-area: name;
+  text-align: center;
+}
+
+.attraction-card > p {
+  grid-area: description;
+  padding: 8px;
+}
+
+.attraction-card > address {
+  grid-area: location;
+  padding: 8px;
+}
+
+.attraction-card > button {
+  margin-top: 8px;
+  grid-area: button;
+}
