@@ -1,0 +1,52 @@
+{
+  "city_attractions": [
+    {
+      "title": "The Whispering Coral Museum of Maritime History",
+      "address": "12 Ocean Breeze Lane, Coastline District, ZIP 78901",
+      "description": "Discover the vibrant, often tumultuous, history of seafaring in the tropics. This museum features salvaged artifacts, interactive exhibits on ancient navigation, and a stunning collection of indigenous fishing vessels. Don't miss the panoramic rooftop view of the harbor.",
+      "figure": "images/coral-museum.webp"
+    },
+    {
+      "title": "Avenida del Sol Food Stalls & Night Market",
+      "address": "Intersection of Sun Street and Palm Avenue, Central Square, ZIP 78902",
+      "description": "A bustling open-air market that truly comes alive after sunset. Sample authentic street food from across the globe, featuring spicy jerk chicken, fresh ceviche, savory empanadas, and unique tropical fruit smoothies. A feast for the senses and a cultural melting pot.",
+      "figure": "images/food-stall.webp"
+    },
+    {
+      "title": "The Emerald Canopy Botanical Gardens",
+      "address": "450 Orchid Trail, Hillside Gardens, ZIP 78903",
+      "description": "A tranquil escape showcasing thousands of species of tropical flora. Wander through themed gardens, including the 'Orchid Cloud Forest' and the 'Prehistoric Fern Gully.' Home to a conservatory dedicated to endangered native plants and brilliant, iridescent hummingbirds.",
+      "figure": "images/botanical-garden.webp"
+    },
+    {
+      "title": "Mercado Nuevo Artesanal (New Artisan Market)",
+      "address": "33 Plaza de los Colores, Old Town, ZIP 78904",
+      "description": "Located in a beautifully restored colonial building, this market is the best place to find handmade crafts, textiles, and art from local and regional artisans. Look for unique jewelry made from seeds and shells, and intricate hand-painted ceramics.",
+      "figure": "images/artesanal-market.webp"
+    },
+    {
+      "title": "The Azure Lagoon Kayaking Center",
+      "address": "Pier 7, Blue Water Marina, ZIP 78905",
+      "description": "Rent a kayak or paddleboard and explore the calm, crystalline waters of the Azure Lagoon. The center offers guided mangrove tours where you can spot diverse marine life, including manatees, sea turtles, and a variety of colorful wading birds.",
+      "figure": "images/kayak.webp"
+    },
+    {
+      "title": "Teatro Tropical - House of Music and Dance",
+      "address": "200 Rhythm Road, Cultural Quarter, ZIP 78906",
+      "description": "This historic performance hall is the heart of the city's performing arts scene. Catch a vibrant folk dance performance, a classical music concert, or a modern experimental play. Check the schedule for late-night salsa and jazz sessions.",
+      "figure": "images/house-of-music.webp"
+    },
+    {
+      "title": "Mount Cacao Hiking Trail and Overlook",
+      "address": "Trailhead at the end of Sierra Drive, Mountain Foothills, ZIP 78907",
+      "description": "A moderately challenging 3-mile loop that winds through a dense rainforest, offering stunning views of the entire city and the sea beyond. The trail culminates in a grand overlook, perfect for sunset photography. Bring water and bug spray!",
+      "figure": "images/hiking-trail.webp"
+    },
+    {
+      "title": "The Electric Current Graffiti Alley",
+      "address": "Between Alley 10 and 12, Industrial Arts District, ZIP 78908",
+      "description": "A dynamic, ever-changing outdoor gallery where local street artists showcase their talent. This colorful alley is renowned for its large-scale murals that often reflect the city's current social and political landscape. It's a must-see for contemporary art lovers.",
+      "figure": "images/graffiti-alley.webp"
+    }
+  ]
+}
