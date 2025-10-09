@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h2,
+p,
+li,
+div {
+  padding: 8px;
+}
+
+#square1,
+#square2,
+#square3,
+#square4,
+#square5 {
+  height: 150px;
+  width: 150px;
+}
+
+#square1 {
+  background-color: #08080c;
+}
+
+#square2 {
+  background-color: #942911;
+}
+#square3 {
+  background-color: #edf2f4;
+}
+#square4 {
+  background-color: #e9ce2c;
+}
+#square5 {
+  background-color: #d80032;
+}
+
+li {
+  list-style-type: none;
+}
+
+.heading {
+  font-family: "Cormorant Unicase", serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 1.5rem;
+}
+
+.body-text {
+  font-family: "Moderustic", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 350;
+  font-style: normal;
+}
