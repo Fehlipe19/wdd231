@@ -127,6 +127,16 @@ li a:hover,
   min-width: 50px;
 }
 
+#time-dialog {
+  margin-top: 32px;
+  justify-self: center;
+  width: 300px;
+  height: 200px;
+  text-align: center;
+  font-size: 1.2rem;
+  border-radius: 8px;
+}
+
 h1 {
   text-align: center;
   color: var(--light-color);

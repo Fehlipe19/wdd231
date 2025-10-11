@@ -12,6 +12,7 @@ lastModifiedP.textContent = `Last Modification: ${oLastModified.toLocaleString()
 
 const msToDays = 86400000;
 const currentVisit = Date.now();
+const displayDialog = document.getElementById("time-dialog");
 // let lastVisit = 0;
 
 // console.log(`Last visit: ${lastVisit}`);
@@ -20,13 +21,38 @@ function calculateDate() {
   let lastVisit = localStorage.getItem("lastVisit");
   //   console.log(`Last visit: ${lastVisit}
   //                 Current Visit: ${currentVisit}`);
+  displayDialog.innerHTML = "";
   if (lastVisit === null) {
     console.log("First time visiting.");
+    displayDialog.innerHTML = `
+        <button id="closeModal">❌</button>
+        <h3>This is your first visit!</h3>
+    `;
+    displayDialog.showModal();
+    closeModal.addEventListener("click", () => {
+      displayDialog.close();
+    });
   } else if (currentVisit - lastVisit < msToDays) {
-    console.log("Last visit was less than 24 hours ago.");
+    console.log("");
+    displayDialog.innerHTML = `
+        <button id="closeModal">❌</button>
+        <h3>Back so soon! Awesome!</h3>
+    `;
+    displayDialog.showModal();
+    closeModal.addEventListener("click", () => {
+      displayDialog.close();
+    });
   } else {
     const daysSinceLastVisit = Math.round((currentVisit - lastVisit) / msToDays);
     console.log(`It's been ${daysSinceLastVisit} days since your last visit.`);
+    displayDialog.innerHTML = `
+        <button id="closeModal">❌</button>
+        <h3>You last visited ${daysSinceLastVisit} days ago.</h3>
+    `;
+    displayDialog.showModal();
+    closeModal.addEventListener("click", () => {
+      displayDialog.close();
+    });
   }
   localStorage.setItem("lastVisit", currentVisit);
 }
