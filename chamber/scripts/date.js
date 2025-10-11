@@ -23,7 +23,6 @@ function calculateDate() {
   //                 Current Visit: ${currentVisit}`);
   displayDialog.innerHTML = "";
   if (lastVisit === null) {
-    console.log("First time visiting.");
     displayDialog.innerHTML = `
         <button id="closeModal">❌</button>
         <h3>This is your first visit!</h3>
@@ -33,7 +32,6 @@ function calculateDate() {
       displayDialog.close();
     });
   } else if (currentVisit - lastVisit < msToDays) {
-    console.log("");
     displayDialog.innerHTML = `
         <button id="closeModal">❌</button>
         <h3>Back so soon! Awesome!</h3>
@@ -44,7 +42,6 @@ function calculateDate() {
     });
   } else {
     const daysSinceLastVisit = Math.round((currentVisit - lastVisit) / msToDays);
-    console.log(`It's been ${daysSinceLastVisit} days since your last visit.`);
     displayDialog.innerHTML = `
         <button id="closeModal">❌</button>
         <h3>You last visited ${daysSinceLastVisit} days ago.</h3>
