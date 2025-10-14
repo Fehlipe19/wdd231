@@ -18,6 +18,36 @@
     gap: 16px;
   }
 
+  .main-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* align-items: normal; */
+    /* flex-wrap: wrap; */
+  }
+
+  #generate-character-btn {
+    position: absolute;
+    bottom: 5%;
+    right: 10%;
+  }
+
+  #generate-character-btn:hover {
+    background-color: var(--link-color);
+    color: var(--primary-color);
+  }
+
+  .side-text1 {
+    width: 40%;
+  }
+
+  .side-text2 {
+    width: 40%;
+  }
+
+  .how-to-list {
+    width: 40%;
+  }
+
   footer {
     margin-top: 8%;
     height: 120px;
