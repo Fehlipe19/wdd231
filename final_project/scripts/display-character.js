@@ -4,8 +4,6 @@ async function getCharacterData() {
   try {
     const response = await fetch(charactersURL);
     const data = await response.json();
-    // console.table(typeof data);
-
     return data;
   } catch (error) {
     console.error("Error fetching character data:", error);
@@ -36,7 +34,6 @@ async function createCharacterCard() {
     <p><span>HitDie: </span>${character.hit_die}</p>
     <img loading="lazy" src="${character.imageURL}" alt="Fantasy ${character.class}">
     `;
-    console.log(character.imageURL);
     document.querySelector(".card-container").appendChild(characterCard);
   });
 }
@@ -46,11 +43,9 @@ const displayDialog = document.getElementById("character-dialog");
 async function displayCharacterDialog() {
   displayDialog.innerHTML = "";
   const characterList = await getCharacterData();
-  console.log(characterList);
   const randomId = getRandomFloat(1, 15).toFixed();
   const character = characterList.find((char) => char.id == randomId);
 
-  console.log(character);
   displayDialog.innerHTML = `
     <button id="closeModal">❌</button>
      <h2>${character.name}</h2>
