@@ -1,0 +1,37 @@
+@media screen and (min-width: 900px) {
+  #ham-menu {
+    display: none;
+  }
+
+  header {
+    flex-direction: row;
+  }
+
+  .mobile-header {
+    width: 30%;
+  }
+
+  .card-container {
+    margin-top: 32px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 16px;
+  }
+
+  footer {
+    margin-top: 8%;
+    height: 120px;
+  }
+
+  nav {
+    width: 65%;
+    max-width: 700px;
+    margin-right: 32px;
+  }
+
+  ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
