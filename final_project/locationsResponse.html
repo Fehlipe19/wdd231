@@ -16,7 +16,6 @@
     <link rel="stylesheet" href="styles/large.css" />
     <script src="scripts/main.js" defer></script>
     <script src="scripts/form-handler.js" defer></script>
-    "
   </head>
   <body>
     <header>
@@ -37,31 +36,12 @@
       </nav>
     </header>
     <main>
-      <h1>MeetUp Locations</h1>
-      <form action="locationsResponse.html" method="get">
-        <label class="vert"> Your Name: <input required type="text" id="username" name="username" /> </label>
-        <label class="vert"> Email: <input required type="email" id="email" name="email" /> </label>
-        <label class="vert"> State: <input required type="text" id="state" name="state" /> </label>
-        <label class="vert"> City: <input required type="text" id="city" name="city" /> </label>
-        <label class="vert">
-          About me:
-          <textarea
-            type="text"
-            id="about"
-            name="about"
-            rows="5"
-            cols="40"
-            placeholder="Describe yourself and your character..."></textarea>
-        </label>
-        <input type="hidden" name="from_locations" value="form_submitted" />
-        <input type="submit" value="Find your group" />
-      </form>
-      <p>This form will save how many cities you've submitted on localStorage in your browser.</p>
+      <h1>We'll let you know when a MeetUp group starts in this area!</h1>
     </main>
     <footer>
       <p>&copy;<span id="currentYear"></span> | Felipe Menezes | Florida</p>
       <p id="lastModified"></p>
-      <a href="https://fehlipe19.github.io/wdd131/">WDD 131 Home Page</a>
+      <a href="https://fehlipe19.github.io/wdd231/">WDD 231 Home Page</a>
     </footer>
   </body>
 </html>

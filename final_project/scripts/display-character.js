@@ -12,12 +12,19 @@ async function getCharacterData() {
   }
 }
 
-document.querySelector("#generate-character-btn").addEventListener("click", () => {
-  console.log("Button clicked");
-  displayCharacterDialog();
-});
+const currentURL = window.location.href;
+if (currentURL.includes("character.html")) {
+  console.log("On character.html, creating character cards");
+  createCharacterCard();
+} else if (currentURL.includes("index.html") || currentURL === "https://fehlipe19.github.io/wdd231/final_project/") {
+  document.querySelector("#generate-character-btn").addEventListener("click", () => {
+    console.log("Button clicked");
+    displayCharacterDialog();
+  });
+}
 
-function createCharacterCard(characterList) {
+async function createCharacterCard() {
+  const characterList = await getCharacterData();
   characterList.forEach((character) => {
     const characterCard = document.createElement("div");
     characterCard.classList.add("character-card");
