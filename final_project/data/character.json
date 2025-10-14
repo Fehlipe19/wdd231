@@ -1,0 +1,152 @@
+[
+  {
+    "id": 1,
+    "name": "Kaelen Vancour",
+    "class": "Bard",
+    "primary_stat": "Charisma (CHA)",
+    "secondary_stat": "Dexterity (DEX)",
+    "hit_die": "d8",
+    "background": "Courtier",
+    "imageURL": "images/bard.webp"
+  },
+  {
+    "id": 2,
+    "name": "Grizelda 'Giz' Sparklefoot",
+    "class": "Barbarian",
+    "primary_stat": "Strength (STR)",
+    "secondary_stat": "Constitution (CON)",
+    "hit_die": "d12",
+    "background": "Guild Artisan (Jeweler)",
+    "imageURL": "images/barbarian.webp"
+  },
+  {
+    "id": 3,
+    "name": "Roric Flintbeard",
+    "class": "Cleric",
+    "primary_stat": "Wisdom (WIS)",
+    "secondary_stat": "Strength (STR) or Constitution (CON)",
+    "hit_die": "d8",
+    "background": "Acolyte",
+    "imageURL": "images/cleric.webp"
+  },
+  {
+    "id": 4,
+    "name": "Silas Emberfall",
+    "class": "Warlock",
+    "primary_stat": "Charisma (CHA)",
+    "secondary_stat": "Constitution (CON)",
+    "hit_die": "d8",
+    "background": "Hermit",
+    "imageURL": "images/Warlock.webp"
+  },
+  {
+    "id": 5,
+    "name": "Zara the Quick",
+    "class": "Rogue",
+    "primary_stat": "Dexterity (DEX)",
+    "secondary_stat": "Intelligence (INT) or Charisma (CHA)",
+    "hit_die": "d8",
+    "background": "Urchin",
+    "imageURL": "images/rogue.webp"
+  },
+  {
+    "id": 6,
+    "name": "Bronwyn Stonehand",
+    "class": "Fighter",
+    "primary_stat": "Strength (STR) or Dexterity (DEX)",
+    "secondary_stat": "Constitution (CON)",
+    "hit_die": "d10",
+    "background": "Soldier",
+    "imageURL": "images/fighter.webp"
+  },
+  {
+    "id": 7,
+    "name": "Faelar Moonwhisper",
+    "class": "Druid",
+    "primary_stat": "Wisdom (WIS)",
+    "secondary_stat": "Constitution (CON)",
+    "hit_die": "d8",
+    "background": "Outlander",
+    "imageURL": "images/druid.webp"
+  },
+  {
+    "id": 8,
+    "name": "Jaxx 'The Jester' Copperpot",
+    "class": "Monk",
+    "primary_stat": "Dexterity (DEX)",
+    "secondary_stat": "Wisdom (WIS)",
+    "hit_die": "d8",
+    "background": "Entertainer (Comedian)",
+    "imageURL": "images/monk-2.webp"
+  },
+  {
+    "id": 9,
+    "name": "Seraphina Lightbringer",
+    "class": "Paladin",
+    "primary_stat": "Strength (STR)",
+    "secondary_stat": "Charisma (CHA)",
+    "hit_die": "d10",
+    "background": "Noble",
+    "imageURL": "images/paladin.webp"
+  },
+  {
+    "id": 10,
+    "name": "Vexia Shade",
+    "class": "Sorcerer",
+    "primary_stat": "Charisma (CHA)",
+    "secondary_stat": "Constitution (CON)",
+    "hit_die": "d6",
+    "background": "Criminal (Spy)",
+    "imageURL": "images/sorcerer.webp"
+  },
+  {
+    "id": 11,
+    "name": "Alistair Thorne",
+    "class": "Wizard",
+    "primary_stat": "Intelligence (INT)",
+    "secondary_stat": "Constitution (CON) or Dexterity (DEX)",
+    "hit_die": "d6",
+    "background": "Sage",
+    "imageURL": "images/wizard.webp"
+  },
+  {
+    "id": 12,
+    "name": "Garrus the Wanderer",
+    "class": "Ranger",
+    "primary_stat": "Dexterity (DEX)",
+    "secondary_stat": "Wisdom (WIS)",
+    "hit_die": "d10",
+    "background": "Outlander",
+    "imageURL": "images/ranger.webp"
+  },
+  {
+    "id": 13,
+    "name": "Pippin Quickfingers",
+    "class": "Artificer",
+    "primary_stat": "Intelligence (INT)",
+    "secondary_stat": "Constitution (CON)",
+    "hit_die": "d8",
+    "background": "Folk Hero",
+    "imageURL": "images/artificer.webp"
+  },
+  {
+    "id": 14,
+    "name": "Elara Starfall",
+    "class": "Sorcerer",
+    "primary_stat": "Charisma (CHA)",
+    "secondary_stat": "Constitution (CON)",
+    "hit_die": "d6",
+    "background": "Folk Hero",
+    "imageURL": "images/sorcerer.webp"
+  },
+  {
+    "id": 15,
+    "name": "Krash the Unstoppable",
+    "class": "Fighter",
+    "primary_stat": "Strength (STR) or Dexterity (DEX)",
+    "secondary_stat": "Constitution (CON)",
+    "hit_die": "d10",
+    "background": "Sailor (Pirate)",
+    "imageURL": "images/fighter.webp"
+  }
+]
