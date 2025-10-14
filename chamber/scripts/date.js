@@ -13,14 +13,10 @@ lastModifiedP.textContent = `Last Modification: ${oLastModified.toLocaleString()
 const msToDays = 86400000;
 const currentVisit = Date.now();
 const displayDialog = document.getElementById("time-dialog");
-// let lastVisit = 0;
-
-// console.log(`Last visit: ${lastVisit}`);
 
 function calculateDate() {
   let lastVisit = localStorage.getItem("lastVisit");
-  //   console.log(`Last visit: ${lastVisit}
-  //                 Current Visit: ${currentVisit}`);
+
   displayDialog.innerHTML = "";
   if (lastVisit === null) {
     displayDialog.innerHTML = `
