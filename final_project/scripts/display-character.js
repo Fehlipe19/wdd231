@@ -4,7 +4,7 @@ async function getCharacterData() {
   try {
     const response = await fetch(charactersURL);
     const data = await response.json();
-    console.table(typeof data);
+    // console.table(typeof data);
 
     return data;
   } catch (error) {
