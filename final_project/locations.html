@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Locations - DnD Tools</title>
+    <meta name="description" content="Locations page for DnD Toolbox" />
+    <meta name="author" content="Felipe Menezes" />
+    <link rel="icon" href="images/favicon.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Unicase:wght@300;400;500;600;700&family=Moderustic:wght@300..800&display=swap"
+      rel="stylesheet" />
+    <link rel="stylesheet" href="styles/small.css" />
+    <link rel="stylesheet" href="styles/large.css" />
+    <script src="scripts/main.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <div class="mobile-header">
+        <span id="brand-name">DnD MeetUp</span>
+        <div id="ham-menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+      <nav>
+        <ul id="mobile-nav">
+          <li><a href="week06project.html">Home</a></li>
+          <li><a href="character.html">Character</a></li>
+          <li><a href="locations.html" class="active">Locations</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h1>MeetUp Locations</h1>
+      <form action="locationsResponse.html" method="get">
+        <label class="vert"> Your Name: <input required type="text" id="username" name="username" /> </label>
+        <label class="vert"> Email: <input required type="email" id="email" name="email" /> </label>
+        <label class="vert"> State: <input required type="text" id="state" name="state" /> </label>
+        <label class="vert"> City: <input required type="text" id="city" name="city" /> </label>
+        <label class="vert">
+          About me:
+          <textarea
+            type="text"
+            id="about"
+            name="about"
+            rows="5"
+            cols="40"
+            placeholder="Describe yourself and your character..."></textarea>
+        </label>
+        <input type="hidden" name="from_locations" value="form_submitted" />
+        <input type="submit" value="Find your group" />
+      </form>
+      <p>This form will save how many cities you've submitted on localStorage in your browser.</p>
+    </main>
+    <footer>
+      <p>&copy;<span id="currentYear"></span> | Felipe Menezes | Florida</p>
+      <p id="lastModified"></p>
+      <a href="https://fehlipe19.github.io/wdd131/">WDD 131 Home Page</a>
+    </footer>
+  </body>
+</html>
